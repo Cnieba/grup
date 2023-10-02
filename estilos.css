@@ -1,6 +1,30 @@
 footer{
+    font-family: serif;
     background-color: rgb(231, 192, 86);
     color: black;
+}
+
+main{
+    display: flex;flex-wrap: nowrap;
+    justify-content: center;
+}
+
+.caja1{
+    grid-row: 1;
+    grid-column: 1/2;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+}
+
+.section-inicio{
+    background-color: #F3F3F3;
+    height: 520px;
+    width: 800px;
+    margin: 35px 0px;
+    border-radius: 20px;
+    padding: 40px 80px;
 }
 
 nav{
@@ -11,8 +35,14 @@ nav{
 
 .boton{
     background-color: rgba(167, 182, 189, 0.795);
-    margin: 15px;
+    border: 2px solid black;
+    margin: 11px;
     padding: 10px;
     width: auto;
     height: 10px;
+}
+
+section{
+    font-style: normal;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
